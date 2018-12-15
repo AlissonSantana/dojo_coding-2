@@ -1,0 +1,5 @@
+default: --no-source --color --format pretty
+
+diario: -t @efc
+
+semanal: -t @efcerro -f html -o html_report.html
